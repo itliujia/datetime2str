@@ -1,0 +1,22 @@
+{
+  "name": "datetime2str",
+  "version": "1.0.0",
+  "description": "a time formate tool library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "push": "npm run build && npm publish && git push"
+  },
+  "keywords": [
+    "time",
+    "datetime2str",
+    "datetime"
+  ],
+  "author": "Liu Jia",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.3.1",
+    "typescript": "^5.1.3"
+  }
+}
